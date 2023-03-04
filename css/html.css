@@ -4,12 +4,13 @@
    PURPOSE: Styles the html elements
  **************************************************************/
 
-html {
+html, body{
   height: 100%;
+  margin: 0px;
 }
 
 body {
-  height: 100%;
+  height: 100vh;
 
   margin: 0;
   padding: 0;
@@ -66,7 +67,24 @@ h1, h2, h3, h4, h5, h6, p, dl {
   margin: 0;
   padding: 10px 15px;
 }
-
+table, tr, td {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+th {
+	margin-top: 20px;
+}
+table {
+	text-align: center;
+}
+.table_centerd {
+	margin: 0 auto 0 auto;
+}
+.svg_color {
+	fill: #F39C00;
+}
 /* Done so the leftmost column aligns properly with the header.
    If the leftmost column has class gradient applied to it, 
    this class isn't required. */

@@ -239,14 +239,13 @@
                     /**************************************************************
    Alignment classes
  **************************************************************/
-                    /* right*/
+                    
+                    .floatRight {
+                        float: right;
+                    }
                     
                     .floatLeft {
                         float: left;
-                    }
-                    
-                    .floatLeftMenu {
-                        float: right;
                     }
                     
                     .alignLeft {
